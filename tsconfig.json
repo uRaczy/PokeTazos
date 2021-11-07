@@ -19,10 +19,7 @@
     "jsx": "react-jsx",
     "module": "esnext",
     "moduleResolution": "node",
-    "baseUrl": "./src",
-    "paths": {
-      "theme": ["theme/theme"],
-    }
+    "baseUrl": "./src"
   },
   "include": [
     "src",
