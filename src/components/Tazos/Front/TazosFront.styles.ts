@@ -1,16 +1,25 @@
 import styled from 'styled-components';
 
-export const StyledTazos = styled.div`
+export const StyledFront = styled.div`
   border-radius: 100%;
-  width: 200px;
-  height: 200px;
+  background-color: blue;
+  width: 100%;
+  height: 100%;
 `;
 
-export const StyledLogo = styled.div``;
+export const StyledLogo = styled.div`
+
+`;
 
 // Test if pokemon should be added as additional img or put to StyledTazos element
-export const StyledPokemon = styled.div``;
+export const StyledPokemon = styled.div`
 
-export const StyledType = styled.p``;
+`;
 
-export const StyledName = styled.p``;
+export const StyledType = styled.p`
+  position: absolute;
+`;
+
+export const StyledName = styled.p`
+  position: absolute;
+`;

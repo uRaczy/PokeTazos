@@ -1,12 +1,11 @@
 import { ThemeProvider } from 'styled-components';
 
 import theme from 'theme/theme';
-import Navbar from 'components/Navbar/Navbar.components';
+// import Navbar from 'components/Navbar/Navbar.components';
 import Tazos from 'components/Tazos/Tazos.component';
 
 const App = () => (
   <ThemeProvider theme={theme}>
-    <Navbar />
     <Tazos />
     <ul>
       <a href="#top"><li>1</li></a>

@@ -1,10 +1,14 @@
+import {
+  StyledFront, StyledLogo, StyledType, StyledName, StyledPokemon,
+} from './TazosFront.styles';
+
 const TazosFront = () => (
-  <StyledTazos>
-  <StyledLogo />
-  <StyledPokemon />
-  <StyledType />
-  <StyledName />
-</StyledTazos>
+  <StyledFront>
+    <StyledLogo />
+    <StyledPokemon />
+    <StyledType />
+    <StyledName />
+  </StyledFront>
 );
 
 export default TazosFront;
